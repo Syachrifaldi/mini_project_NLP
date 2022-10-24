@@ -1,0 +1,210 @@
+{
+  "intents": [
+    {
+      "tag": "Greetings",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan",
+        "Hai sob"
+      ],
+      "responses": [
+        "Hai! Lunarians, aku Utopia,  Senang bertemu dengan kamu",
+        "Halo! Saya Utopia, salam kenal ya!",
+        "Helo! Utopia disini, Bagaimana kabar kamu?"
+      ]
+    },
+    {
+      "tag": "perkenalan_utopia",
+      "patterns": [
+        "kenalan Yuk",
+        "apa itu utopia"
+      ],
+      "responses": [
+        "Utopia adalah aplikasi chatbot yang akan memberikanmu seputar informasi tentang berhubungan dengan pasangan yang baik",
+        "Utopia itu adalah teman yang akan selalu menemani kamu untuk mengobrol tentang relationship"
+      ]
+    },
+    {
+      "tag": "utopia",
+      "patterns": [
+        "utopia",
+        "utopia mau curhat"
+      ],
+      "responses": [
+        "aku disini, apakah ada yang ingin kamu ceritain?",
+        "ututututu kamu kenapa sayang?"
+      ]
+    },
+    {
+      "tag": "kenalan_utopia",
+      "patterns": [
+        "kamu berasal dari mana?",
+        "Siapa penciptamu?"
+      ],
+      "responses": [
+        "Utopia diciptakan oleh mahasiswa dan mahasiswi dari program Kampus Merdeka khususnya pada kelas lunar kelompok 4 berisikan syachrial, aulia, ivan, dan Haris yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini",
+        "Pembuat KadekBot dari kalangan mahasiswa dan mahasiswi lho!",
+        "Penciptaku berasal dari seorang mahasiswa yang kreatif, sehingga saya bisa aktif saat ini!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Dadahh!, Sampai kita bertemu kembali" ,
+        "babay !, Senang berinteraksi dengan kamu",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!, jangan kapok untuk berinteraksi dengan aku ya",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati hehehe",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "curhat_cerita_sedih",
+      "patterns": [
+        "aku pengen curhat",
+        "aku lagi pengen curhat nih",
+        "aku mau curhat",
+        "aku mau curhat nih sama kamu",
+        "aku mau cerita",
+        "aku pengen cerita",
+        "aku lagi sedih nih"
+      ],
+      "responses": [
+        "Kamu lagi kenapa cakep?",
+        "sini - sini biar utopia mendengarkan cerita dari kamu",
+        "harimu sedang berat ya, cerita ke aku ya"
+      ]
+    },
+    {
+      "tag": "tentang_dia_cowok_cewek,bete,kesel,sebel,",
+      "patterns": [
+        "cowoku lagi kenapa ya?",
+        "ceweku lagi kenapa ya?",
+        "aku sebel banget sama dia",
+        "aku lagi bete banget nih",
+        "aku lagi kesel banget sama dia"
+        
+      ],
+      "responses": [
+        "sini - sini biar utopia mendengarkan cerita dari kamu",
+        "harimu sedang berat ya, cerita ke aku ya"
+      ]
+    },
+    {
+      "tag": "Konflik_respon_menghilang_read_cuek_ngeselin",
+      "patterns": [
+        "iya aku bete banget nih, dia slow respon",
+        "dia suka ngilang tiba tiba gitu",
+        "iya dia cuek banget",
+        "masa chatku di read doang ama dia"
+      ],
+      "responses": [
+        "sabar ya, mungkin kamu bukan prioritasnya",
+        "semangat ya, kali aja kamu bukan pilihannya"
+        
+      ]
+    },
+    {
+      "tag": "respon_kurang_memuaskan",
+      "patterns": [
+        "kok kamu begitu si",
+        "kok malah belain dia",
+        "kok kamu malah ikut lebih ngeselin",
+        "ihhhhh"
+
+      ],
+      "responses": [
+        "aku disini memberikan pilihan dan layanan terbaik untuk kamu",
+        "aku hanya mencoba menjadi teman pendengarmu yang baik, solusiku cukup membantumu kan?"
+      ]
+    },
+    {
+      "tag": "respon_memuaskan",
+      "patterns": [
+        "iya kali ya, mungkin dia lagi ada urusan",
+        "iya mungkin lagi sibuk",
+        "mungkin kuotanya abis"
+      ],
+      "responses": [
+        "iya betul, tetap berpikir positif terus ya",
+        "selalu menjadi pribadi yang good vibes, semangat yaa "
+      ]
+    },
+    {
+      "tag": "konflik_bohong_telfon",
+      "patterns": [
+        "waktu itu dia bohong ke aku, katanya lagi ga main game gataunya maen",
+        "waktu itu pengen telfon dia, dia bilangnya lagi sibuk, gataunya dia lagi  telfonan sama orang lain"
+      ],
+      "responses": [
+        "dia tidak berbohong, dia hanya tidak ingin kamu marah",
+        "dia tidak berbohong, dia hanya ingin menikmati hidupnya"
+      ]
+    },
+    {
+      "tag": "konflik_ketahuan_kegap_kegep_ngegep_liat_lihat",
+      "patterns": [
+        "waktu itu aku ngegep dia lagi maen diluar padahal bilangnya dia lagi dirumah",
+        "waktu itu aku lagi main, terus aku kan ke kamar mandi eh lihat dia sedang bersama cewe lain ",
+        "waktu itu aku lagi main, terus aku kan ke kamar mandi eh lihat dia sedang bersama cowo lain "
+      ],
+      "responses": [
+        "sabar sabar sabar ini ujian sabar",
+        "sabar jangan emosi, mungkin dia sedang suntuk",
+        "berpikir positif aja, mungkin aja itu kekasih gelapnya"
+      ]
+    },
+    {
+      "tag": "konflik_senang_tiba_jalan",
+      "patterns": [
+        "aku senang banget, tiba tiba tadi abis di surprise",
+        "aku senang banget abis dibeliin makan",
+        "aku senang banget tau, aku bisa telfonan sama dia",
+        "tiba tiba aku ditransferin uang",
+        "aku abis diajak jalan"
+      ],
+      "responses": [
+        "cieeee ada yang sedang berbunga bunga nih",
+        "jangan senang dulu, sipa tau itu hanya alibi dia biar keliatan ia sayang sama kamu lalu ia bisa bebas main dibelakang kamu",
+        "wih asik banget dong, pengen deh aku pacarin juga pacar kamu boleh ga?"
+      ]
+    }
+  ]
+}
